@@ -109,8 +109,4 @@ console.log(name1 == name2); /*false*/
 console.log(name1 !== name2); /*true*/
 console.log(name1 != name); /*true*/
 
-const lowerCase = name2.toLowerCase();
-
-console.log(lowerCase);
-
-console.log(name1 === lowerCase); /* la uguaglianza stretta è diventata VERA!*/
+console.log(name1 === name2.toLowerCase());
